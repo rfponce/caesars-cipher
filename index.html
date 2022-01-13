@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    #frame {
+      margin: auto 5vw;
+    }
+
+    #textBox {
+      width: 80vw;
+    }
+  </style>
+  <title>ROT13 Cipher</title>
+</head>
+<body>
+  <div id="frame">
+    <h1>ROT13 Cipher</h1>
+  
+    <p>The ROT Cipher is a Caesar Cipher where the characters move 13 positions in the English alphabet. The A becomes N, the B becomes O, and the Z moves 12 places ahead from A again to become M.</p>
+
+    <p>The algorithm only accepts letters from the English alphabet. Another kind of character will be printed as they are. The encrypted message is returned in upper case.</p>
+
+    <input type="text" id="textBox" placeholder="Enter a word or sentence to encrypt or decrypt" />  
+    <button id="execute">Execute</button>
+  </div>
+  <script src="./rot13.js"></script>
+</body>
+</html>
